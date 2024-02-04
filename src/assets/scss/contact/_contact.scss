@@ -1,13 +1,6 @@
 /*-------------------------
     Contact Styles
 -------------------------*/
-$color_1: #fe9f38;
-$color_2: #fff;
-$color_3: #444;
-$background-color_1: #fff;
-$background-color_2: #fe9f38;
-$border-color_1: #fe9f38;
-
 .Contact-methods {
   position: relative;
 }
@@ -22,7 +15,7 @@ $border-color_1: #fe9f38;
   -webkit-box-shadow: 0 0 2.188rem 0 rgba(0, 4, 2, .22);
   box-shadow: 0 0 2.188rem 0 rgba(0, 4, 2, .22);
   padding: 2rem;
-  background-color: $background-color_1;
+  background-color: var(--color-white);
   Form {
     .button {
       width: 100%;
@@ -48,15 +41,15 @@ $border-color_1: #fe9f38;
   flex-direction: column;
   a.Contact-info-text {
     &:hover {
-      color: $color_1;
+      color: var(--color-secondary);
     }
   }
 }
 .Contact-info-icon {
   width: 6.5rem;
   height: 6.5rem;
-  border: .125rem solid currentColor;
-  color: $color_1;
+  border: var(--border-secondary-light);
+  color: var(--color-secondary);
   position: relative;
   z-index: 1;
   display: -webkit-box;
@@ -89,19 +82,19 @@ $border-color_1: #fe9f38;
     border-radius: 50%;
   }
   &:hover {
-    background-color: $background-color_2;
+    background-color: var(--color-secondary);
     -webkit-transform: scale(.93);
     -ms-transform: scale(.93);
     transform: scale(.93);
-    color: $color_2;
-    border-color: $border-color_1;
+    color: var(--color-white);
+    border-color: var(--color-secondary);
     &:after {
       -webkit-animation: circleHoverEffect 1s ease-out 75ms;
       animation: circleHoverEffect 1s ease-out 75ms;
     }
   }
   &:hover+.Contact-info-text {
-    color: $color_1;
+    color: var(--color-secondary);
   }
   svg {
     height: 2.5rem;
@@ -110,7 +103,7 @@ $border-color_1: #fe9f38;
 }
 .Contact-info-text {
   font-size: 1rem;
-  color: $color_3;
+  color: var(--color-gray-1);
   font-weight: 500;
   margin-top: 1rem;
   text-align: center;
@@ -125,7 +118,7 @@ $border-color_1: #fe9f38;
   .Contact-form {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-top: .063rem solid #ddd;
+    border-top: var(--border-gray-light);
     position: relative;
     top: 0;
     -webkit-transform: none;

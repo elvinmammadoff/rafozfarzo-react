@@ -1,16 +1,6 @@
 /*-------------------------
     Header Styles
 -------------------------*/
-$color_1: #212529;
-$color_2: #102747;
-$color_3: #fe9f38;
-$color_4: #fff;
-$font-family_1: Montserrat, sans-serif;
-$background-color_1: #fff;
-$background-color_2: currentColor;
-$background-color_3: #102747;
-$background-color_4: rgba(16, 39, 71, .8);
-
 @keyframes move1 {
   0% {
     height: 100%;
@@ -112,7 +102,7 @@ $background-color_4: rgba(16, 39, 71, .8);
   animation: slideInDown .7s ease-in-out 0s 1 both;
   -webkit-box-shadow: 0 .313rem .563rem .063rem rgba(144, 161, 180, .2);
   box-shadow: 0 .313rem .563rem .063rem rgba(144, 161, 180, .2);
-  background-color: $background-color_1;
+  background-color: var(--color-white);
 }
 .slideInDown {
   -webkit-animation-name: slideInDown;
@@ -129,12 +119,12 @@ $background-color_4: rgba(16, 39, 71, .8);
   padding: .5rem 0;
   margin: .125rem 0 0;
   font-size: 1rem;
-  color: $color_1;
+  color: var(--color-gray-3);
   text-align: left;
   list-style: none;
-  background-color: $background-color_1;
+  background-color: var(--color-white);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, .15);
+  border: var(--border-black-1);
   border-radius: .25rem;
 }
 .dropdown-menu.show {
@@ -166,7 +156,7 @@ $background-color_4: rgba(16, 39, 71, .8);
         -webkit-transition-delay: 0s, 0s, .3s;
         -o-transition-delay: 0s, 0s, .3s;
         transition-delay: 0s, 0s, .3s;
-        color: $color_2;
+        color: var(--color-primary);
       }
     }
   }
@@ -175,7 +165,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     position: absolute;
     list-style: none;
     min-width: 10rem;
-    background-color: $background-color_1;
+    background-color: var(--color-white);
     -webkit-box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
     box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
     visibility: hidden;
@@ -197,11 +187,11 @@ $background-color_4: rgba(16, 39, 71, .8);
   .dropdown-menu-link {
     padding: .375rem .625rem;
     display: block;
-    color: $color_3;
-    border: .063rem solid currentColor;
+    color: var(--color-secondary);
+    border: var(--border-secondary);
     margin-top: -.063rem;
     &:hover {
-      color: $color_2;
+      color: var(--color-primary);
     }
   }
 }
@@ -210,7 +200,7 @@ $background-color_4: rgba(16, 39, 71, .8);
   margin: 0;
   list-style: none;
   position: relative;
-  border: .063rem solid transparent;
+  border: var(--border-transparent-1);
   -webkit-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
   transition: all .3s ease-out;
@@ -236,7 +226,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     content: "";
     display: block;
     position: absolute;
-    background-color: $background-color_2;
+    background-color: var(--color-secondary);
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -248,7 +238,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     content: "";
     display: block;
     position: absolute;
-    background-color: $background-color_2;
+    background-color: var(--color-secondary);
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -260,7 +250,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     content: "";
     display: block;
     position: absolute;
-    background-color: $background-color_2;
+    background-color: var(--color-secondary);
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -272,7 +262,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     content: "";
     display: block;
     position: absolute;
-    background-color: $background-color_2;
+    background-color: var(--color-secondary);
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -285,13 +275,13 @@ $background-color_4: rgba(16, 39, 71, .8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: $color_2;
+  color: var(--color-primary);
   text-decoration: none;
-  font-family: $font-family_1;
+  font-family: var(--font-primary);
   font-weight: 700;
   text-transform: uppercase;
   &:hover {
-    color: $color_3;
+    color: var(--color-secondary);
   }
 }
 .cd-nav-trigger {
@@ -318,7 +308,7 @@ $background-color_4: rgba(16, 39, 71, .8);
 .cd-nav__divider {
   width: 100%;
   height: .125rem;
-  background-color: $background-color_3;
+  background-color: var(--color-primary);
   border-radius: .25rem;
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
@@ -355,7 +345,7 @@ $background-color_4: rgba(16, 39, 71, .8);
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    background-color: $background-color_1;
+    background-color: var(--color-white);
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -390,9 +380,9 @@ $background-color_4: rgba(16, 39, 71, .8);
   .menu {
     .dropdown-menu-link {
       padding: .375rem 2rem;
-      color: $color_2;
+      color: var(--color-primary);
       &:hover {
-        color: $color_3;
+        color: var(--color-secondary);
       }
     }
     .dropdown {
@@ -430,8 +420,8 @@ $background-color_4: rgba(16, 39, 71, .8);
     cursor: pointer;
     right: 0;
     top: 0;
-    background-color: $background-color_4;
-    color: $color_4;
+    background-color: var(--bgcolor-primary-4);
+    color: var(--color-white);
     width: 2.5rem;
     height: 2.5rem;
     font-size: 2rem;

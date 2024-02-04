@@ -75,7 +75,7 @@
 }
 .Blog-more {
   padding: .5rem .7rem;
-  border: .063rem solid currentColor;
+  border: var(--border-secondary);
   display: inline-block;
   font-size: .8rem;
   color: var(--color-secondary);
@@ -92,7 +92,7 @@
 }
 .Blog-details-footer {
   padding-top: 2rem;
-  border-top: .063rem solid var(--color-secondary);
+  border-top: var(--border-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

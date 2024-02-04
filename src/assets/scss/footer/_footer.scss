@@ -1,14 +1,8 @@
 /*-------------------------
     Footer Styles
 -------------------------*/
-$color_1: #102747;
-$color_2: #fff;
-$color_3: #444;
-$color_4: #fe9f38;
-$background-color_1: #102747;
-
 .footer {
-  background-color: $background-color_1;
+  background-color: var(--color-primary);
   padding: 1.375rem 0;
 }
 .footer-content {
@@ -24,11 +18,11 @@ $background-color_1: #102747;
 }
 .copyright {
   font-size: .9rem;
-  color: $color_1;
+  color: var(--color-primary);
   margin-bottom: 0;
 }
 .copyright-white {
-  color: $color_2;
+  color: var(--color-white);
 }
 .social {
   display: -webkit-box;
@@ -40,10 +34,10 @@ $background-color_1: #102747;
   -webkit-column-gap: 10px;
   -moz-column-gap: 10px;
   column-gap: 10px;
-  color: $color_3;
+  color: var(--color-gray-1);
 }
 .social-item {
-  color: $color_1;
+  color: var(--color-primary);
   font-size: 18px;
   .icon {
     width: 1.125rem;
@@ -52,17 +46,17 @@ $background-color_1: #102747;
 }
 .social--white {
   .social-item {
-    color: $color_2;
+    color: var(--color-white);
     &:hover {
-      color: $color_4;
+      color: var(--color-secondary);
     }
   }
 }
 .social--blue {
   .social-item {
-    color: $color_3;
+    color: var(--color-gray-1);
     &:hover {
-      color: $color_4;
+      color: var(--color-secondary);
     }
   }
 }

@@ -1,8 +1,6 @@
 /*-------------------------
     Filter
 -------------------------*/
-$color_1: #102747;
-
 .filter-grid {
   margin: .938rem 0;
   a {
@@ -26,7 +24,7 @@ $color_1: #102747;
   font-size: .875rem;
   font-weight: 500;
   display: inline-block;
-  color: $color_1;
+  color: var(--color-primary);
   cursor: pointer;
   text-transform: uppercase;
   &:after {

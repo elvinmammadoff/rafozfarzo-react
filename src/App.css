@@ -1454,23 +1454,23 @@ button {
 }
 
 .Form-input::-webkit-input-placeholder {
-  color: #838998
+  color: #888
 }
 
 .Form-input::-moz-placeholder {
-  color: #838998
+  color: #888
 }
 
 .Form-input:-ms-input-placeholder {
-  color: #838998
+  color: #888
 }
 
 .Form-input::-ms-input-placeholder {
-  color: #838998
+  color: #888
 }
 
 .Form-input::placeholder {
-  color: #838998
+  color: #888
 }
 
 .Form-input:focus {

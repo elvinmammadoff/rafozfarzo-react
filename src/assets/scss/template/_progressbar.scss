@@ -1,9 +1,6 @@
 /*-------------------------
     Progressbar
 -------------------------*/
-$color_1: #06355f;
-$background-color_1: #fe9f38;
-
 .Progressbar {
   margin-top: 4rem;
 }
@@ -12,7 +9,7 @@ $background-color_1: #fe9f38;
 }
 .Progressbar-title {
   margin-bottom: 0;
-  color: $color_1;
+  color: var(--color-blur-1);
   font-size: 1.063rem;
   font-weight: 400;
 }
@@ -24,7 +21,7 @@ $background-color_1: #fe9f38;
 .Progressbar-fill {
   display: block;
   height: .188rem;
-  background-color: $background-color_1;
+  background-color: var(--color-secondary);
   position: relative;
   overflow: hidden;
   -webkit-transition: width 2s;
@@ -33,6 +30,6 @@ $background-color_1: #fe9f38;
 }
 .Progressbar-count {
   font-weight: 500;
-  color: $color_1;
+  color: var(--color-blur-1);
   font-size: 1.063rem;
 }

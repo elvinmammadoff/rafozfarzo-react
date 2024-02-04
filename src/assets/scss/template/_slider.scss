@@ -1,10 +1,6 @@
 /*-------------------------
     Slider
 -------------------------*/
-$color_1: #fff;
-$background-color_1: transparent;
-$background-color_2: #fe9f38;
-
 .slider {
   margin: 0 0 3rem;
 }
@@ -19,7 +15,7 @@ $background-color_2: #fe9f38;
 }
 .slider-caption {
   padding: 2rem;
-  color: $color_1;
+  color: var(--color-white);
   font-size: 1.25rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -35,16 +31,16 @@ $background-color_2: #fe9f38;
   display: inline-block;
   overflow: hidden;
   font-size: .8rem;
-  color: $color_1;
-  background-color: $background-color_1;
+  color: var(--color-white);
+  background-color: var(--color-transparent);
   padding: .3rem .5rem;
   text-transform: uppercase;
   font-weight: 500;
   margin-top: .5rem;
   border: .063rem solid #fe9f38;
   &:hover {
-    color: $color_1;
-    background-color: $background-color_2;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
     -webkit-transform: translateY(.188rem);
     -ms-transform: translateY(.188rem);
     transform: translateY(.188rem);

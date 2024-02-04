@@ -1,14 +1,12 @@
 /*-------------------------
     Gallery Styles
 -------------------------*/
-$color_1: #fff;
-
 .Gallery {
   margin: 3rem 0;
 }
 .Gallery-item {
   a {
-    color: $color_1;
+    color: var(--color-white);
     font-size: 1.125rem;
   }
 }

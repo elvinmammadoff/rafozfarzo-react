@@ -3,17 +3,14 @@
 -------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-$font-family_1: Montserrat, sans-serif;
-$background-color_1: #fff;
-
 body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: $font-family_1;
+  font-family: var(--font-primary);
   font-weight: 400;
   min-height: 100vh;
-  background-color: $background-color_1;
+  background-color: var(--color-white);
   margin: 0;
 }
 * {

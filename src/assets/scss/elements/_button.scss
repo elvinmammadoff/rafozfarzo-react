@@ -1,10 +1,6 @@
 /*-------------------------
     Button
 -------------------------*/
-$background-color_1: #fe9f38;
-$background-color_2: #102747;
-$border-color_1: #fe9f38;
-
 button {
   outline: 0;
   transition: all .3s ease-out;
@@ -22,10 +18,10 @@ button {
   }
 }
 .button--orange {
-  background-color: $background-color_1;
-  border-color: $border-color_1;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
   &:hover {
-    background-color: $background-color_2;
-    border: .063rem solid #102747;
+    background-color: var(--color-primary);
+    border: var(--border-primary);
   }
 }

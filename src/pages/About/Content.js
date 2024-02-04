@@ -4,7 +4,7 @@ import Progress from "./Progress";
 
 const Content = ({ data }) => {
     return (
-        <Col className="col-sm-12 col-md-6 content-padd">
+        <Col className="col-sm-12 col-md-6 content-padding">
             <div className="content-margin">
                 <div className="content-details">
                     <h3 className="content-title">
