@@ -1,0 +1,45 @@
+/*-------------------------
+    Variables
+-------------------------*/
+:root {
+  // Color
+  --color-primary: #102747;
+  --color-secondary: #fe9f38;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-link: #2522BA;
+
+  --color-body: #525260;
+  --color-gray-1: #444;
+
+
+
+  // Border
+  --border-secondary: 1px solid #fe9f38;
+
+
+  //Font Family
+  --font-primary: 'DM Sans', sans-serif;
+
+  // Transition
+  --transition: all 0.3s ease-in-out;
+
+  //Fonts Size
+  --font-body-1: 18px;
+  --font-body-2: 16px;
+  --font-body-3: 14px;
+  --font-body-4: 12px;
+
+  // Line Height
+  --line-height-b1: 1.5;
+  --line-height-b3: 1.1;
+
+  // Heading Font
+  --h1: 80px;
+  --h2: 64px;
+  --h3: 48px;
+  --h4: 32px;
+  --h5: 24px;
+  --h6: 20px;
+}

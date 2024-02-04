@@ -1,0 +1,76 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+$color_1: #102747;
+$color_2: #fff;
+$color_3: #444;
+$color_4: #fe9f38;
+$background-color_1: #102747;
+
+.footer {
+  background-color: $background-color_1;
+  padding: 1.375rem 0;
+}
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: .9rem;
+  color: $color_1;
+  margin-bottom: 0;
+}
+.copyright-white {
+  color: $color_2;
+}
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  color: $color_3;
+}
+.social-item {
+  color: $color_1;
+  font-size: 18px;
+  .icon {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+}
+.social--white {
+  .social-item {
+    color: $color_2;
+    &:hover {
+      color: $color_4;
+    }
+  }
+}
+.social--blue {
+  .social-item {
+    color: $color_3;
+    &:hover {
+      color: $color_4;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

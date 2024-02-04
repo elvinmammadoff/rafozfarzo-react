@@ -1,0 +1,15 @@
+/*-------------------------
+    Map
+-------------------------*/
+.Map {
+  margin-top: 3rem;
+}
+.Map-container {
+  height: 40rem;
+  border-top: .063rem solid #ddd;
+}
+@media (max-width: 768px) {
+  .Map {
+    margin-top: 0;
+  }
+}

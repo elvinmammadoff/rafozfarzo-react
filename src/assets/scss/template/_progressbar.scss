@@ -1,0 +1,38 @@
+/*-------------------------
+    Progressbar
+-------------------------*/
+$color_1: #06355f;
+$background-color_1: #fe9f38;
+
+.Progressbar {
+  margin-top: 4rem;
+}
+.Progressbar-item {
+  margin-top: 1.563rem;
+}
+.Progressbar-title {
+  margin-bottom: 0;
+  color: $color_1;
+  font-size: 1.063rem;
+  font-weight: 400;
+}
+.Progressbar-full {
+  position: relative;
+  background: #e0e0e0;
+  margin-top: .3rem;
+}
+.Progressbar-fill {
+  display: block;
+  height: .188rem;
+  background-color: $background-color_1;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: width 2s;
+  -o-transition: width 2s;
+  transition: width 2s;
+}
+.Progressbar-count {
+  font-weight: 500;
+  color: $color_1;
+  font-size: 1.063rem;
+}

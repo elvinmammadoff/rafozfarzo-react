@@ -1,0 +1,36 @@
+/*-------------------------
+    Breadcrumb
+-------------------------*/
+$color_1: #fff;
+$background-color_1: #fe9f38;
+
+.Cover {
+  height: 15.625rem;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0 0 2.5rem;
+}
+.Cover-content {
+  padding: .625rem 0 .625rem 2.188rem;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: .25rem;
+    background-color: $background-color_1;
+  }
+}
+.Cover-title {
+  color: $color_1;
+  font-size: 1.688rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0;
+}

@@ -1,0 +1,22 @@
+/*-------------------------
+    Typography
+-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+$font-family_1: Montserrat, sans-serif;
+$background-color_1: #fff;
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family_1;
+  font-weight: 400;
+  min-height: 100vh;
+  background-color: $background-color_1;
+  margin: 0;
+}
+* {
+  outline: 0 !important;
+  font-weight: 400;
+}
