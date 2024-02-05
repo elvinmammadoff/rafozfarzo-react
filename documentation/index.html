@@ -284,7 +284,7 @@
 
         <section id="support-desk" class="section">
 
-          <h1 class="section-title"><span>09</span> Support</h1>
+          <h1 class="section-title"><span>5.</span> Support</h1>
 
           <h2 class="mt-1">Support Scope</h2>
 
@@ -347,7 +347,7 @@
 
         <section id="credits" class="section">
 
-          <h1 class="section-title"><span>10</span> Credits</h1>
+          <h1 class="section-title"><span>6.</span> Credits</h1>
 
           <br>
 
@@ -379,7 +379,7 @@
 
         <section id="updates" class="section">
 
-          <h1 class="section-title"><span>11</span> Regular Updates</h1>
+          <h1 class="section-title"><span>7.</span> Regular Updates</h1>
 
           <br>
 
@@ -389,14 +389,14 @@
 
           <pre class="css">
 
-  V. 1.0.0 – 05.12.2023
+  V. 1.0.0 – 05.02.2024
   - Initial release
 </pre>
         </section>
 
         <section id="thanks" class="section">
 
-          <h1 class="section-title"><span>12</span> Thanks</h1>
+          <h1 class="section-title"><span>8.</span> Thanks</h1>
 
           <br>
 
