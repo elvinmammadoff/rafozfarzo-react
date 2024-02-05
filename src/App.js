@@ -27,22 +27,9 @@ function App() {
               description="Rafoz Farzo is the best Photography React JS template on the market to help photographers, bloggers."
               robots={['index', 'follow']}
               keywords={['gallery', 'magazine', 'multipurpose', 'photographer', 'template']}
-              siteUrl="https://rafozfarzo-react.netlify.app/"
-              openGraph={{
-                  title: 'Rafoz Farzo Photography React JS Template',
-                  description: 'Rafoz Farzo is the best Photography React JS template on the market to help photographers, bloggers.',
-                  image: {
-                      src: 'https://themeforest.img.customer.envatousercontent.com/files/254515795/01_preview.__large_preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=fa197ed858d2d4f48814c0825199a21d',
-                      alt: 'Rafoz Farzo Photography',
-                  }
-              }}
-              twitterCard={{
-                  title: 'Rafoz Farzo Photography React JS Template',
-                  description: 'Rafoz Farzo is the best Photography React JS template on the market to help photographers, bloggers.',
-                  image: {
-                      src: 'https://themeforest.img.customer.envatousercontent.com/files/254515795/01_preview.__large_preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=fa197ed858d2d4f48814c0825199a21d',
-                      alt: 'Rafoz Farzo Photography',
-                  }
+              siteUrl="http://example.com"
+              image={{
+                  src: 'https://themeforest.img.customer.envatousercontent.com/files/254515795/01_preview.__large_preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=fa197ed858d2d4f48814c0825199a21d'
               }}
             />
             <ScrollToTop smooth className="scroll-up" component={<FaArrowUp />} />
