@@ -1,0 +1,27 @@
+/*-------------------------
+    Button
+-------------------------*/
+button {
+  outline: 0;
+  transition: all .3s ease-out;
+}
+.button {
+  margin-top: .874rem;
+  border-radius: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5rem .7rem;
+  &:hover {
+    -webkit-box-shadow: 0 .5rem 1.813rem 0 rgba(0, 0, 0, .23);
+    box-shadow: 0 .5rem 1.813rem 0 rgba(0, 0, 0, .23);
+  }
+}
+.button--orange {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  &:hover {
+    background-color: var(--color-primary);
+    border: var(--border-primary);
+  }
+}

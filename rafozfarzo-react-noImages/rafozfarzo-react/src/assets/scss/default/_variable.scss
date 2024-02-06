@@ -1,0 +1,65 @@
+/*-------------------------
+    Variables
+-------------------------*/
+:root {
+  // Color
+  --color-primary: #102747;
+  --color-secondary: #fe9f38;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-transparent: transparent;
+
+  --color-link: #2522BA;
+
+  --color-body: #525260;
+  --color-gray-light: #ddd;
+  --color-gray-1: #444;
+  --color-gray-2: #888;
+  --color-gray-3: #212529;
+  --color-blur-dark: #071330;
+  --color-blur-1: #06355f;
+
+
+
+  // Background RGBA Color
+  --bgcolor-primary-1: rgba(16, 39, 71, .1);
+  --bgcolor-primary-2: rgba(16, 39, 71, .5);
+  --bgcolor-primary-3: rgba(16, 39, 71, .6);
+  --bgcolor-primary-4: rgba(16, 39, 71, .8);
+
+
+
+  // Border
+  --border-secondary: .063rem solid var(--color-secondary);
+  --border-primary: .063rem solid var(--color-primary);
+  --border-secondary-light: .125rem solid var(--color-secondary);
+  --border-gray-light: .063rem solid var(--color-gray-light);
+  --border-white: .063rem solid var(--color-white);
+  --border-black-1: 1px solid rgba(0, 0, 0, .15);
+  --border-transparent-1: .063rem solid var(--color-transparent);
+
+
+  //Font Family
+  --font-primary: 'Montserrat', sans-serif;
+
+  // Transition
+  --transition: all 0.3s ease-in-out;
+
+  //Fonts Size
+  --font-body-1: 18px;
+  --font-body-2: 16px;
+  --font-body-3: 14px;
+  --font-body-4: 12px;
+
+  // Line Height
+  --line-height-b1: 1.5;
+  --line-height-b3: 1.1;
+
+  // Heading Font
+  --h1: 80px;
+  --h2: 64px;
+  --h3: 48px;
+  --h4: 32px;
+  --h5: 24px;
+  --h6: 20px;
+}

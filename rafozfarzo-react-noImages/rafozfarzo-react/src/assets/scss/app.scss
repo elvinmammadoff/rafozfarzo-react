@@ -1,0 +1,82 @@
+/*---------------------------------------------
+Template Name: Rafoz Farzo
+Template URL: https://rafozfarzo-react.netlify.app/
+Description: Photography React JS Template
+Author: Alissio
+Author URL: https://themeforest.net/user/alissio
+Version: 1.0.0
+
+===============================================
+STYLESHEET INDEXING
+|
+|___ Default Styles
+|	|___ Typography
+|	|___ Forms Styles
+|	|___ Helper Classes
+|
+|___ Elements Styles
+|	|___ Link
+|	|___ Button
+|	|___ Breadcrumb
+|	|___ Effect
+|	|___ Back To Top
+|	|___ Pagination
+|	|___ Map
+|	|___ Slick
+|
+|___Template Styles
+|	|___ Slider
+|	|___ Progressbar
+|	|___ Filter
+|
+|___Blocks Styles
+|	|___ Header Styles
+|	|___ About Styles
+|	|___ Gallery Styles
+|	|___ Blog Styles
+|	|___ Contact Styles
+|	|___ Footer Styles
+|
+|___ END STYLESHEET INDEXING
+
+--------------------------------------------*/
+
+/*=======================================================================
+1. Default Styles
+=========================================================================*/
+@import "default/variable";
+@import "default/classes";
+@import "default/form";
+@import "default/typography";
+
+/*=======================================================================
+2. Elements Styles
+=========================================================================*/
+@import "elements/link";
+@import "elements/button";
+@import "elements/breadcrumb";
+@import "elements/effect";
+@import "elements/scroll-up";
+@import "elements/pagination";
+@import "elements/map";
+@import "elements/slick";
+
+/*=======================================================================
+3. Template Styles
+=========================================================================*/
+@import "template/slider";
+@import "template/progressbar";
+@import "template/filter";
+
+/*=======================================================================
+4.Blocks Styles
+=========================================================================*/
+@import "header/header";
+@import "about/about";
+@import "gallery/gallery";
+@import "blog/blog";
+@import "contact/contact";
+@import "footer/footer";
+
+
+

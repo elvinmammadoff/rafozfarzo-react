@@ -81,16 +81,10 @@
                     </li>
                 </ul>
             </li>
-            <li>
-              <a href="#logo-settings" class="logo-settings">Logo Settings</a>
-            </li>
-            <li>
-              <a href="#fonts-settings" class="fonts-settings">Fonts Settings</a>
-            </li>
-            <li><a href="#support-desk" class="support-desk">Support Desk</a></li>
-            <li><a href="#credits" class="credits">Credits</a></li>
-            <li><a href="#updates" class="updates">Regular Updates</a></li>
-            <li><a href="#thanks" class="thanks">Thanks 😊</a></li>
+            <li><a href="#support" class="support">5. Support</a></li>
+            <li><a href="#credits" class="credits">6. Credits</a></li>
+            <li><a href="#updates" class="updates">7. Regular Updates</a></li>
+            <li><a href="#thanks" class="thanks">8. Thanks 😊</a></li>
           </ol>
 
         </div>
@@ -282,7 +276,7 @@
 
         </section>
 
-        <section id="support-desk" class="section">
+        <section id="support" class="section">
 
           <h1 class="section-title"><span>5.</span> Support</h1>
 
@@ -355,21 +349,10 @@
 
 
           <ul class="credits">
-            <li><a href="https://getbootstrap.com/" target="_blank" class="fs-1_4 bold">Bootstrap</a></li>
-            <li><strong>Stock image</strong> <a href="https://www.freepik.com/" target="_blank">Freepik</a>,
+            <li><a href="https://react-bootstrap.netlify.app/" target="_blank" class="fs-1_4 bold">React Bootstrap</a></li>
+            <li><strong>Stock image </strong>
               <a href="https://unsplash.com/" target="_blank">Unsplash</a>,
-              <a href="https://pixabay.com/" target="_blank">Pixabay</a>,
-              <a href="https://wallpapers.com/" target="_blank">Wallpapers</a>,
-              <a href="https://userstock.io/" target="_blank">Userstock</a>,
-              <a href="https://www.shutterstock.com/" target="_blank">Shutterstock</a>
-            </li>
-            <li>
-              <a href="https://icomoon.io/" target="_blank" class="fs-1_4 bold">Icomoon</a>
-              <p>IcoMoon is an icon solution, providing three main services: vector icon packs, the IcoMoon App, and hosting icons as SVGs or fonts.</p>
-              <strong>Example:</strong> <br>
-              <div class="mt-1">
-                <code><i class="icon-users"></i></code>
-              </div>
+              <a href="https://pixabay.com/" target="_blank">Pixabay</a>
             </li>
             <li><a href="https://michalsnik.github.io/aos/" target="_blank" class="fs-1_4 bold">AOS</a></li>
             <li><a href="https://kenwheeler.github.io/slick/" target="_blank" class="fs-1_4 bold">Slick</a></li>

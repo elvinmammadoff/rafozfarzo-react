@@ -1,0 +1,78 @@
+/*-------------------------
+    Filter
+-------------------------*/
+.filter-grid {
+  margin: .938rem 0;
+  a {
+    width: 100%;
+    display: block;
+  }
+}
+.filter-group {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.filter-content {
+  min-height: 18rem !important;
+  overflow: hidden;
+}
+.filter-button {
+  position: relative;
+  padding: .625rem 0;
+  margin: 0 1.5rem 0;
+  font-size: .875rem;
+  font-weight: 500;
+  display: inline-block;
+  color: var(--color-primary);
+  cursor: pointer;
+  text-transform: uppercase;
+  &:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: .125rem;
+    background: #fe9f38;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    bottom: 0;
+    right: 0;
+  }
+  &:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: .125rem;
+    background: #fe9f38;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    top: 0;
+    left: 0;
+  }
+  &:hover {
+    &:after {
+      width: 100%;
+    }
+    &:before {
+      width: 100%;
+    }
+  }
+}
+.filter-button.active {
+  &:after {
+    width: 100%;
+  }
+  &:before {
+    width: 100%;
+  }
+}
+@media (max-width:768px) {
+  .filter-group {
+    margin-bottom: 0;
+  }
+  .filter-button {
+    margin-right: 0;
+  }
+}

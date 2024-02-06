@@ -1,0 +1,76 @@
+/*-------------------------
+    Forms Styles
+-------------------------*/
+.Form {
+  .button {
+    margin-top: 0;
+  }
+}
+.Form-group {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.Form-input {
+  border: var(--border-secondary);
+  display: block;
+  width: 100%;
+  font-size: .875rem;
+  height: 2.813rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  word-break: normal;
+  background-color: var(--color-white);
+  color: var(--color-blur-dark);
+  outline: 0;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  &:focus {
+    outline: 0;
+    border-color: var(--color-primary);
+  }
+  &::-webkit-input-placeholder {
+    color: var(--color-gray-2);
+  }
+  &::-moz-placeholder {
+    color: var(--color-gray-2);
+  }
+  &:-ms-input-placeholder {
+    color: var(--color-gray-2);
+  }
+  &::-ms-input-placeholder {
+    color: var(--color-gray-2);
+  }
+  &::placeholder {
+    color: var(--color-gray-2);
+  }
+}
+.Form-group--focus {
+  .Form-label {
+    font-size: .75rem;
+    -webkit-transform: translateY(-.25rem);
+    -ms-transform: translateY(-.25rem);
+    transform: translateY(-.25rem);
+  }
+  .Form-input {
+    padding-top: 1.125rem;
+  }
+}
+.Form-label {
+  font-size: .875rem;
+  font-weight: 400;
+  width: 100%;
+  color: var(--color-gray-1);
+  margin-bottom: .5rem;
+  z-index: 1;
+  cursor: text;
+  text-transform: capitalize;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.Form-input--textarea {
+  height: 9rem;
+}

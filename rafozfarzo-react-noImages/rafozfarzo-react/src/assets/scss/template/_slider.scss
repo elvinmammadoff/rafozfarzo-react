@@ -1,0 +1,53 @@
+/*-------------------------
+    Slider
+-------------------------*/
+.slider {
+  margin: 0 0 3rem;
+}
+.slider-effect {
+  height: 100%;
+}
+.slider-title {
+  font-size: 1.69rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+.slider-caption {
+  padding: 2rem;
+  color: var(--color-white);
+  font-size: 1.25rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  &:after {
+    pointer-events: none;
+  }
+  &:before {
+    pointer-events: none;
+  }
+}
+.slider-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: .8rem;
+  color: var(--color-white);
+  background-color: var(--color-transparent);
+  padding: .3rem .5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: .5rem;
+  border: .063rem solid #fe9f38;
+  &:hover {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    -webkit-transform: translateY(.188rem);
+    -ms-transform: translateY(.188rem);
+    transform: translateY(.188rem);
+    -webkit-box-shadow: 0 .563rem 1.063rem -.188rem rgba(0, 0, 0, .13);
+    box-shadow: 0 .563rem 1.063rem -.188rem rgba(0, 0, 0, .13);
+  }
+}
+.slider-item {
+  height: calc(100vh - 249px);
+}

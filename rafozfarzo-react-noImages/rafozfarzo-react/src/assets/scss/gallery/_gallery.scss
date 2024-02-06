@@ -1,0 +1,17 @@
+/*-------------------------
+    Gallery Styles
+-------------------------*/
+.Gallery {
+  margin: 3rem 0;
+}
+.Gallery-item {
+  a {
+    color: var(--color-white);
+    font-size: 1.125rem;
+  }
+}
+@media (max-width:768px) {
+  .Gallery {
+    margin: 3rem 0;
+  }
+}

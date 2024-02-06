@@ -1,0 +1,19 @@
+/*-------------------------
+    Typography
+-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  min-height: 100vh;
+  background-color: var(--color-white);
+  margin: 0;
+}
+* {
+  outline: 0 !important;
+  font-weight: 400;
+}
