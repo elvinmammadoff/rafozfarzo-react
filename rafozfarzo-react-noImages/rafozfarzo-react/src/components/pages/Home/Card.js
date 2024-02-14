@@ -8,7 +8,7 @@ const Card = ({ title, src }) => {
                      className="effect-img effect-prolly-img" />
                     <figcaption className="slider-caption effect-caption effect-prolly-caption">
                         <h2 className="slider-title effect-prolly-title">{title}</h2>
-                        <a href={process.env.PUBLIC_URL + "/#/blog"} title="View more" className="slider-button effect-prolly-button">
+                        <a href={process.env.PUBLIC_URL + "/blog"} title="View more" className="slider-button effect-prolly-button">
                             View more
                         </a>
                     </figcaption>

@@ -20,17 +20,17 @@ const ContactDetails = ({ data }) => {
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <div className="Contact-info-item">
-                            <a href={process.env.PUBLIC_URL + "/#/contact"} title={data.email}
+                            <a href={process.env.PUBLIC_URL + "/contact"} title={data.email}
                                className="Contact-info-icon rounded-circle">
                                 <FaRegEnvelope />
                             </a>
-                            <a href={process.env.PUBLIC_URL + "/#/contact"} title={data.email}
+                            <a href={process.env.PUBLIC_URL + "/contact"} title={data.email}
                                className="Contact-info-text">{data.email}</a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <div className="Contact-info-item">
-                            <a href={process.env.PUBLIC_URL + "/#/contact"} title={data.address}
+                            <a href={process.env.PUBLIC_URL + "/contact"} title={data.address}
                                className="Contact-info-icon Contact-info-map rounded-circle">
                                 <FaRegMap />
                             </a>

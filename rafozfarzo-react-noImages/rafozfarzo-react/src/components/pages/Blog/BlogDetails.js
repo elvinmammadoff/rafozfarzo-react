@@ -19,7 +19,7 @@ const BlogDetails = ({ data }) => {
                         <div className="content-margin">
                             <div className="content-details">
                                 <h3 className="content-title">
-                                    <a href={process.env.PUBLIC_URL + "/#/blog-single"} title={data.title}>{data.title}</a>
+                                    <a href={process.env.PUBLIC_URL + "/blog-single"} title={data.title}>{data.title}</a>
                                 </h3>
                                 <div className="content-description">{data.date} / Posted {data.author}</div>
                                 <p className="content-text">{data.text}</p>
@@ -32,18 +32,18 @@ const BlogDetails = ({ data }) => {
                                 </div>
                                 <div className="Blog-details-tag">
                                     {data.tags.map((item, index) => {
-                                        return <a href={process.env.PUBLIC_URL + "/#/blog-single"} title={item} key={index}>{item}</a>
+                                        return <a href={process.env.PUBLIC_URL + "/blog-single"} title={item} key={index}>{item}</a>
                                     })}
                                 </div>
                             </div>
                             <div className="social social--blue">
-                                <a href={process.env.PUBLIC_URL + "/#/blog-single"} title="Facebook" className="social-item">
+                                <a href={process.env.PUBLIC_URL + "/blog-single"} title="Facebook" className="social-item">
                                     <FaFacebookF />
                                 </a>
-                                <a href={process.env.PUBLIC_URL + "/#/blog-single"} title="Twitter" className="social-item">
+                                <a href={process.env.PUBLIC_URL + "/blog-single"} title="Twitter" className="social-item">
                                     <FaTwitter />
                                 </a>
-                                <a href={process.env.PUBLIC_URL + "/#/blog-single"} title="Pinterest" className="social-item">
+                                <a href={process.env.PUBLIC_URL + "/blog-single"} title="Pinterest" className="social-item">
                                     <FaPinterestP />
                                 </a>
                             </div>
