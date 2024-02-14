@@ -1,0 +1,164 @@
+Upload Caregory: 
+Site Templates
+________________________
+Name: 
+Rafoz Farzo - Photography React JS Template
+________________________
+Key Features: 
+1. Modern Design and Responsive Layout
+2. No jQuery dependency, Reusable React Components
+3. Easy to Customize + SCSS + React Bootstrap 
+________________________
+Category:
+Creative
+________________________
+High Resolution: 
+Yes
+________________________
+Compatible Browsers:
+IE11, Firefox, Safari, Opera, Chrome, Edge
+________________________
+Compatible With:
+ReactJS, Bootstrap 5.x
+________________________
+ThemeForest Files Included:
+CSS Files, Sass Files, JS Files
+________________________
+Columns:
+1
+________________________
+Layout:
+Responsive
+________________________
+Demo URL:
+https://rafozfarzo-react.netlify.app/
+________________________
+Tags:
+gallery, magazine, creative, modern, photography, art, portfolio, react, react photography, react gallery, react multi page, react portfolio, reactjs
+
+________________________
+Comments:
+Good Days,
+
+This file React JS version of our HTML Template.
+
+Here is the approved HTML version link:
+https://themeforest.net/item/rafoz-photography-html-template/22656827
+
+Here is the approved PSD version link:
+https://themeforest.net/item/rafoz-photography-psd/21879397
+
+We created this file by following envato author Themes Item Preparation & Technical Requirements.
+https://help.author.envato.com/hc/en-us/articles/360000470826-Themes-Item-Preparation-Technical-Requirements
+
+Thanks.
+________________________
+HTML Description:
+<div class="user-html user-html__with-lazy-load"><h2 id="item-description__a-creative-react-js-template-for-photographers-bloggers-and-creative-professionals">A creative React JS template for photographers, bloggers and creative professionals</h2>
+
+<p>Rafoz Farzo Photography is a modern Responsive, Multi-Purpose, Multi-Page React JS template on the market to help photographers, bloggers.</p> 
+
+<p><a href="https://rafozfarzo-react.netlify.app/documentation/" rel="nofollow"><img src="https://rafozfarzo-react.netlify.app/img/doc.png" alt="online documentation"></a><br></p><p>To ensure that it meets your demanding requirements, we have tested our React JS Template to ensure it adapts itself to any device your users are viewing, whether it is a laptop, mobile, or tablet!</p>
+<p>Beautiful design will help make your site better. Customization allows to customize any element of the template under you. We’ve done absolutely clean code for you.</p>
+<p>With Rafoz Farzo, you can also get access to exclusive features including BootStrap 5 Framework, SCSS, React Router, AOS, Slick, Google Web Fonts, lightGallery ready demos. Rafoz Farzo React is component based, built with modern pure Javascript, optimised for fast loading, well structured and code, developer friendly and well documented.</p>
+
+	<p><a href="https://themeforest.net/item/rafoz-photography-html-template/22656827" rel="nofollow"><img src="https://rafozfarzo-react.netlify.app/img/html.png" alt="html version"></a><br></p>
+
+	<p><a href="https://themeforest.net/item/rafoz-photography-psd/21879397" rel="nofollow"><img src="https://rafozfarzo-react.netlify.app/img/psd.png" alt="psd version"></a><br></p>
+
+<h3 id="item-description__template-description">Template Description</h3>
+<ul>
+<li>Free Lifetime Update</li>
+<li>Quick Support</li>
+<li><a href="https://rafozfarzo-react.netlify.app/documentation/" rel="nofollow">Online Documentation</a></li>
+</ul>
+
+<h3 id="item-description__main-features">Main Features</h3>
+<ul>
+<li>Fast, Lightweight &amp; Powerful</li>
+<li>Latest React</li>
+<li>React Hooks used</li>
+<li>No jQuery Dependency</li>
+<li>Developer Friendly Code</li>
+
+<li>Creative Layout</li>
+<li>Blog Page</li>
+<li>Blog Single page</li>
+<li>Gallery Page</li>
+
+<li>React Icons is used</li>
+<li><strong>Sass Available</strong></li>
+<li>Responsive in Any Device</li>
+<li>Sticky Header</li>
+<li>Based on Bootstrap v5</li>
+<li>Animations on scroll</li>
+<li>Integrated with Font Awesome Pro</li>
+<li>Awesome Customized Slider</li>
+<li>Contact Form</li>
+
+<li>Well Commented Code</li>
+<li>lightGallery popup</li>
+<li>Fast Loading Speed</li>
+<li>Cross Browser Support</li>
+<li>Modern Design</li>
+<li>Easily Customizable</li>
+<li>Google Fonts</li>
+<li>Detailed Documentation</li>
+</ul>
+
+<h3 id="item-description__react-features">React Features</h3>
+<ul>
+    <li>Components</li>
+    <li>One-way Data Binding</li>
+    <li>Virtual DOM</li>
+    <li>Simplicity</li>
+    <li>Performance</li>
+</ul>
+<h3 id="item-description__what-do-you-get">What Do You Get?</h3>
+<ul>
+    <li>React Files</li>
+    <li>Supporting CSS, Sass, and JS files</li>
+    <li>Documentation</li>
+</ul>
+
+<h3 id="item-description__images-credit">Images Credit:</h3>
+<ul>
+<li><a href="https://unsplash.com" rel="nofollow">https://unsplash.com</a></li>
+<li><a href="https://pixabay.com/" rel="nofollow">https://pixabay.com/</a></li>
+</ul>
+
+<h3 id="item-description__important-note">Important Note:</h3>
+<ul>
+<li>Images and video are only for demo purposes and are not included in the download bundle.</li>    
+</ul>
+
+<h3 id="item-description__1-business-day-support-turnaround">1 Business Day Support Turnaround:</h3>
+<ul>
+    <li>Quick, Dedicated &amp; Professional Support. Your ticket will be answered within 1 business day (weekends are not counted as a business day)</li>
+    
+    <li>For any presale queries, don’t hesitate to leave a comment on the theme comment section</li>
+</ul>
+<h3 id="item-description__thank-you">Thank you:</h3>
+<p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p>
+<p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.</p>
+<p>We are grateful to you.</p>
+<p><strong>– Alissio –</strong></p>
+
+<h3 id="item-description__update-change-log">Update Change log:</h3>
+
+<pre>V 1.0.0 - Feb 06, 2024
+----------------------------
+Initial release
+
+</pre>
+<p>If you love our product, Don’t forget to rate it 5 stars</p>
+<p><img src="https://rafozfarzo-react.netlify.app/img/star.png" alt="star">
+<img src="https://rafozfarzo-react.netlify.app/img/star.png" alt="star">
+<img src="https://rafozfarzo-react.netlify.app/img/star.png" alt="star">
+<img src="https://rafozfarzo-react.netlify.app/img/star.png" alt="star">
+<img src="https://rafozfarzo-react.netlify.app/img/star.png" alt="star"> and let us know your feedback for a better update. Thank you
+<img src="https://rafozfarzo-react.netlify.app/img/smile.png" alt="happy">
+</p>
+</div>
+
+

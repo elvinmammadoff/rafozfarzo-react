@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/scss/app.scss"
 import {
-    HashRouter as Router,
+  BrowserRouter as Router,
     Route,
     Routes,
 } from "react-router-dom";
@@ -20,7 +20,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-      <Router basename="/">
+      <Router>
           <div className="App">
             <SEO
               title="Rafoz Farzo Photography React JS Template"
