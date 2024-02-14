@@ -46,8 +46,7 @@ const Header = () => {
                         {navbar.map((item, index) => {
                             return (
                                 <Nav.Item className={`menu-item ${item.dropdown ? 'dropdown' : ''}`} key={index}>
-                                    <Nav.Link
-                                        as={Link}
+                                    <Link
                                         to={item.link}
                                         className="menu-item-link p-3"
                                         onClick={() => {
@@ -60,7 +59,7 @@ const Header = () => {
                                         <span className="line-2"> </span>
                                         <span className="line-3"> </span>
                                         <span className="line-4"> </span>
-                                    </Nav.Link>
+                                    </Link>
                                     {item.dropdown ?
                                         <>
                                             {expand ? <span
@@ -75,14 +74,13 @@ const Header = () => {
                                             }
                                             <Nav className={`dropdown-menu${mobDrop ? ' show' : ''}`}>
                                                 <Nav.Item className="dropdown-menu-item">
-                                                    <Nav.Link
-                                                        as={Link}
+                                                    <Link
                                                         to={item.dropdown.link}
                                                         className="dropdown-menu-link"
                                                         onClick={() => updateExpanded(false)}
                                                     >
                                                         {item.dropdown.title}
-                                                    </Nav.Link>
+                                                    </Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </> : ''
